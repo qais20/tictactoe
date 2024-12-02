@@ -1,0 +1,94 @@
+/* Reset styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #0f0f17; /* Dark futuristic background */
+  color: #fff;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px 30px;
+  background-color: #1f1f2e;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00e6e6;
+  text-shadow: 0 0 10px #00e6e6, 0 0 20px #00ffff;
+}
+
+/* Header text */
+#header-text {
+  font-size: 50px;
+  color: #00e6e6;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-shadow: 0 0 15px #00e6e6, 0 0 30px #00ffff;
+}
+
+/* Main container */
+.main {
+  padding: 40px;
+  height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Grid container */
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background: #2e2e3d;
+  margin-top: 40px;
+  padding: 1px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+/* Grid boxes */
+.box {
+  background: #1f1f2e;
+  height: 150px;
+  width: 150px;
+  border: 1px solid #00e6e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  color: #00e6e6;
+  cursor: pointer;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.box:hover {
+  background: #2a2a3e;
+  box-shadow: 0 0 10px #00e6e6, 0 0 20px #00ffff;
+}
+
+/* Reset button */
+#resetBtn {
+  background: #1f1f2e;
+  border-radius: 10px;
+  color: #00e6e6;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border: 1px solid #00e6e6;
+  text-shadow: 0 0 10px #00e6e6;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+#resetBtn:hover {
+  background: #00e6e6;
+  color: #1f1f2e;
+  box-shadow: 0 0 10px #00e6e6, 0 0 20px #00ffff;
+}
